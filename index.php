@@ -1,6 +1,7 @@
+<h1>How many bottles of beers you got on your wall?</h1>
 <?php
 
-require './bottles.php';
+require './wall.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
@@ -17,7 +18,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 ?>
 <form action="/" method="post">
-    <label for="beers">How many beers you got?</label>
     <input id="beers" type="number" name="beers">
-    <input type="submit" name="submit">
+    <input type="submit" value="Sing to me!">
 </form>
