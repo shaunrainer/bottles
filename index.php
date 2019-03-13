@@ -1,4 +1,4 @@
-<h1>How many bottles of beers you got on your wall?</h1>
+<h1>How many bottles of beer you got on your wall?</h1>
 <?php
 
 require './wall.php';
